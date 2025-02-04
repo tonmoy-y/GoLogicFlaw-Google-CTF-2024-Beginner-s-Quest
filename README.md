@@ -40,9 +40,10 @@ func main() {
 
 4. **Run the script** in an online Go compiler or locally.
 5. **Submit the predicted number** to the server to solve the challenge.
+6. Flag is CTF{B3c@us3T1m1ngM@tt3rs}
 
 ## Notes
 - The Go random number generator is **not cryptographically secure** and can be exploited when the seed is known.
 - This technique works because `rand.Seed(num)` always produces the same sequence for a fixed seed.
 
-Happy hacking! 🚀
+
